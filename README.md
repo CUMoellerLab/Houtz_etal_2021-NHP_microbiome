@@ -9,3 +9,15 @@ To set up the environment to execute this code, make sure Mamba is installed in 
 ```{bash}
 mamba env create -n qiime2-2021.2-irkernel --file qiime2-2021.2-py36-osx-conda-irkernel.yml
 ```
+
+Activate the environment:
+
+```{bash}
+conda activate qiime2-2021.2-irkernel
+```
+
+Now, register the R kernel with Jupyter:
+
+```{bash}
+R -e 'IRkernel::installspec()'
+```
