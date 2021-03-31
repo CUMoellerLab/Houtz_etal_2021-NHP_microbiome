@@ -131,3 +131,7 @@ dmypy.json
 
 ### output folders
 output/
+
+
+### OS X cruft
+.DS_Store
